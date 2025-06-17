@@ -9,6 +9,7 @@ import Navbar from './components/Navbar.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
 import Hero from './components/Hero.jsx'
+import Experience from './components/Experience.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
     <Navbar></Navbar>
     <Hero></Hero>
     <About></About>
+    <Experience></Experience>
     <Projects></Projects>
     <Skills></Skills>
     <Contact></Contact>

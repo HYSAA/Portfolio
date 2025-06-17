@@ -1,0 +1,32 @@
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.date-range {
+  /* Optional: style as needed */
+  font-weight: bold;
+}
+.underline {
+  border: none;
+  height: 2px;
+  background-color: #333; /* Change color as needed */
+  margin-top: 8px; /* Space above the underline */
+  margin-bottom: 16px; /* Space below the underline */
+}
+.experience-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.experience-logo {
+  width: 60px;      /* Adjust size as needed */
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.experience-details {
+  flex: 1;
+}
